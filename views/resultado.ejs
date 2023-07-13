@@ -1,0 +1,15 @@
+<%- include('partials/header.ejs')%>
+
+<body>
+<%- include('partials/navbar.ejs')%>
+  <div class="container">
+    <h1>Resultado da Consulta</h1>
+    <p>Capital: <%= weatherData.city %></p>
+    <p>Data: <%= weatherData.date %></p>
+    <p>Temperatura mínima: <%= weatherData.temp_min %>°C</p>
+    <p>Temperatura máxima: <%= weatherData.temp_max %>°C</p>
+    <a href="/consulta">Voltar</a>
+  </div>
+</body>
+
+<%- include('partials/footer.ejs') %>

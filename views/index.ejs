@@ -1,0 +1,13 @@
+<%- include('partials/header.ejs')%>
+<body>
+  <h1>Temperaturas das Capitais Brasileiras</h1>
+  <% for (const data of weatherData) { %>
+    <div>
+      <h2><%= data.capital %></h2>
+      <p>Temperatura mínima: <%= data.temp_min %>°C</p>
+      <p>Temperatura máxima: <%= data.temp_max %>°C</p>
+    </div>
+  <% } %>
+</body>
+
+<%- include('partials/footer.ejs') %>

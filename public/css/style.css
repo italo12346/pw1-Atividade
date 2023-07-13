@@ -1,0 +1,53 @@
+:root {
+    --cor-navbar:#000059;
+    --cor-hover: rgb(255, 0, 0);
+    --cor-primary: #191970;
+    --cor-secondary: rgb(0, 0, 0);
+    --cor-text: rgb(255, 255, 255);
+    --cor-shadow: rgb(168, 2, 2);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    text-decoration: none;
+    list-style: none;
+}
+button{
+    border: none;
+}
+.page{
+    height: 100vh;
+}
+.container{
+    margin-top: 1vh;
+}
+.navbar{
+    background-color: var(--cor-navbar);
+    padding-left: 0.8vw;
+    text-decoration: none;
+   
+}
+.btn{
+    margin-top: 0.5rem;
+}
+
+.card-header{
+    padding: 1vw;
+    text-align: center;
+}
+.buttons{
+    display: flex;
+    justify-content:flex-end;
+    
+}
+.icons{
+    height: 2vh;
+    cursor: pointer;
+}
+.title{
+    margin-bottom: 1vh;
+}
